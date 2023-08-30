@@ -1,5 +1,4 @@
 import { h } from "preact";
-import { Counter } from './components/Counter.tsx';
 
 export default function App() {
     return <div>
