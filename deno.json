@@ -1,0 +1,12 @@
+{
+    "imports": {
+        "preact": "https://esm.sh/preact@10.17.1",
+        "preact/jsx-runtime": "https://cdn.skypack.dev/preact/jsx-runtime?dts",
+        "preact/jsx-dev-runtime": "https://cdn.skypack.dev/preact/jsx-dev-runtime?dts"
+    },
+    "compilerOptions": {
+        "jsx": "react",
+        "jsxFactory": "h",
+        "jsxFragment": "Fragment"
+    }
+}
