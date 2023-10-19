@@ -1,9 +1,18 @@
 {
   "imports": {
-    "preact-render-to-string/jsx": "https://esm.sh/preact-render-to-string@6.2.1/jsx",
-    "preact-router": "https://esm.sh/preact-router@4.1.2",
     "preact": "https://esm.sh/preact@10.17.1?dts",
-    "emeraldcss": "https://unpkg.com/emeraldcss",
-    "@preact/signals": "https://esm.sh/@preact/signals"
+    "preact/": "https://esm.sh/preact@10.17.1/",
+
+    "preact-router": "https://esm.sh/preact-router@4.1.2",
+    "preact-router/": "https://esm.sh/preact-router@4.1.2/",
+
+    "preact-render-to-string/jsx": "https://esm.sh/preact-render-to-string@6.2.1/jsx",
+    "preact-render-to-string/": "https://esm.sh/preact-render-to-string@6.2.1/",
+
+    "emeraldcss": "https://unpkg.com/emeraldcss@1.0.1",
+    "emeraldcss/": "https://unpkg.com/emeraldcss@1.0.1/",
+
+    "@preact/signals": "https://esm.sh/@preact/signals",
+    "@preact/signals/": "https://esm.sh/@preact/signals/"
   }
 }
