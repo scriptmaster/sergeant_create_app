@@ -1,7 +1,7 @@
 import * as React from "react";
 
 export function Header() {
-    return <header className="flex space-between">
+    return <header>
         <nav>
             <a href="/">Logo + Name</a>
             <ul>
