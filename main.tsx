@@ -1,7 +1,11 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom/client';
-// import App from './App.tsx';
+import * as React from "react";
+import * as ReactDOM from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "https://unpkg.com/emeraldcss";
+import "./main.scss";
 
-root.render(<h1>Welcome to sergeant React app</h1>);
+import App from "./App.tsx";
+
+const root = ReactDOM.createRoot(document.body);
+
+root.render(<App />);
