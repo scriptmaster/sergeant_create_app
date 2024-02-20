@@ -1,4 +1,37 @@
 .welcome {
     margin: 50px auto;
     text-align: center;
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    a {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        text-decoration: none;
+        border-bottom: 1px dashed rgba(0,0,0,0.5);
+    }
+
+    p {
+        width: 40%;
+        display: inline-block;
+    }
+}
+
+code {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+
+    border: 1px solid #ccc;
+    background-color: #555;
+    color: #eee;
+    a, a:visited {
+        color: #eee;
+    }
 }
