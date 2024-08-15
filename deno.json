@@ -2,7 +2,7 @@
   "imports": {
     "react": "https://esm.sh/react@18.2.0",
     "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
-    "react-router-dom": "https://esm.sh/react-router-dom@6.22.1",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.22.3",
     "emeraldcss": "https://unpkg.com/emeraldcss@1.0.1/dist/cdn/main.css"
   }
 }
