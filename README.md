@@ -1,7 +1,7 @@
 # sergeant_create_app
 
 ```
-sir create react myapp
+sergeant create react myapp
 ```
 
 This will create under services/myapp (similar to apps/myapp)
@@ -9,7 +9,7 @@ This will create under services/myapp (similar to apps/myapp)
 then do:
 
 ```
-sir --serve
+sergeant --serve
 ```
 
 to build and serve the project
