@@ -1,7 +1,7 @@
 # sergeant_create_app
 
 ```
-sir create react myapp
+sir create joy app
 ```
 
 This will create under services/myapp (similar to apps/myapp)
