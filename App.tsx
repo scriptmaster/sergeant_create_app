@@ -1,18 +1,16 @@
 import * as React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { Header } from "./components/header";
-import Home from "./pages/home/home";
-import Files from "./pages/files/files";
-import Settings from "./pages/settings/settings";
-import Account from "./pages/account/account";
+import { Header } from "./components/header.tsx";
+import Home from "./pages/home/home.tsx";
+import Files from "./pages/files/files.tsx";
+import Settings from "./pages/settings/settings.tsx";
+import Account from "./pages/account/account.tsx";
 
 export default function App() {
-    // ... // ... 
     const router = createBrowserRouter([{
         path: "/",
-        element: <Home />,
-        // loader: rootLoader,
+        element: <Home />
     }, {
         path: "/files",
         element: <Files />,
